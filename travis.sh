@@ -169,7 +169,7 @@ fi
 
 make distdir VERSION=$HOST
 
-cd bitcoin-$HOST
+cd altcoin-$HOST
 
 ./configure --cache-file=../config.cache $BITCOIN_CONFIG_ALL $BITCOIN_CONFIG || ( cat config.log && exit 1)
 make $MAKEJOBS $GOAL || ( echo "Build failure. Verbose build follows." && make $GOAL V=1 ; exit 1 )

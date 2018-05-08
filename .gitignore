@@ -5,19 +5,19 @@ depends/sdk-sources
 depends/sources
 linux.sh
 
-bkc.config
-bkc.creator
-bkc.creator.user
-bkc.files
-bkc.includes
+/*.config
+/*.creator
+/*.creator.user
+/*.files
+/*.includes
 
 *.exe
-src/bitcoin
-src/bitcoind
-src/bitcoin-cli
-src/bitcoin-tx
-src/test/test_bitcoin
-src/qt/test/test_bitcoin-qt
+src/altcoin
+src/altcoind
+src/altcoin-cli
+src/altcoin-tx
+src/test/test_altcoin
+src/qt/test/test_altcoin-qt
 
 # autoreconf
 Makefile.in

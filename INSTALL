@@ -1,5 +1,5 @@
-Building Bitcoin
+Building altcoin
 
-See doc/build-*.md for instructions on building bitcoind,
+See doc/build-*.md for instructions on building altcoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Bitcoin.
+implementation of altcoin.
