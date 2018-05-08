@@ -111,6 +111,7 @@ private:
     QAction *openRPCConsoleAction;
     QAction *openAction;
     QAction *showHelpMessageAction;
+    QAction *mineAction;
 
     QSystemTrayIcon *trayIcon;
     QMenu *trayIconMenu;
@@ -204,6 +205,8 @@ private Q_SLOTS:
     void showDebugWindowActivateConsole();
     /** Show help message dialog */
     void showHelpMessageClicked();
+    /** Start/stop mining */
+    void mineClicked();
 #ifndef Q_OS_MAC
     /** Handle tray icon clicked */
     void trayIconActivated(QSystemTrayIcon::ActivationReason reason);
