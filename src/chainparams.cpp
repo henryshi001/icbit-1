@@ -72,15 +72,15 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 17407407;
+        consensus.nSubsidyHalvingInterval = 5256000;
         consensus.nMajorityEnforceBlockUpgrade = 750;
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
         consensus.BIP34Height = 0;
         consensus.BIP34Hash = uint256S("0x001327a51d20780e899f2e46723c131ed08b13907828ec2205c68ea3553c763e");
         consensus.powLimit = uint256S("00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 14 * 24 * 12 * 60; // 2.8 days
-        consensus.nPowTargetSpacing = 2 * 60; // 2 minutes
+        consensus.nPowTargetTimespan = 30; // 30 seconds
+        consensus.nPowTargetSpacing = 30; // 30 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
@@ -102,10 +102,10 @@ public:
          */
         pchMessageStart[0] = 0xf9;
         pchMessageStart[1] = 0xbe;
-        pchMessageStart[2] = 0xb4;
-        pchMessageStart[3] = 0xda;
+        pchMessageStart[2] = 0xbb;
+        pchMessageStart[3] = 0xdd;
         vAlertPubKey = ParseHex("043b8ae523904c0d328f1d021dbc3a110789496030dc9c09c15dc9a81a2d45d3b1f81db6c433f9b8ab3368b2519af23cc5a644c66e24acaf16708cc1c8170d2f0f");
-        nDefaultPort = 5333;
+        nDefaultPort = 9013;
         nMaxTipAge = 100 * 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
