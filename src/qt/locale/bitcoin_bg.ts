@@ -295,7 +295,7 @@
     </message>
     <message>
         <source>Bitcoin Core client</source>
-        <translation>altcoin Core клиент</translation>
+        <translation>ICBit Core клиент</translation>
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
@@ -387,7 +387,7 @@
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Относно altcoin Core</translation>
+        <translation>&amp;Относно ICBit Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -796,7 +796,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Относно altcoin Core</translation>
+        <translation>Относно ICBit Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -901,7 +901,7 @@
     </message>
     <message>
         <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Автоматично стартиране на altcoin Core след влизане в системата.</translation>
+        <translation>Автоматично стартиране на ICBit Core след влизане в системата.</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -921,7 +921,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия altcoin порт. Работи само с рутери поддържащи UPnP.</translation>
+        <translation>Автоматично отваряне на входящия ICBit порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1935,7 +1935,7 @@
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Разработчици на altcoin Core</translation>
+        <translation>Разработчици на ICBit Core</translation>
     </message>
     <message>
         <source>[testnet]</source>

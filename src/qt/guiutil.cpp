@@ -132,7 +132,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no altcoin: URI
+    // return if URI is not valid or is no ICBit: URI
     if(!uri.isValid() || uri.scheme() != QString("bitcoin"))
         return false;
 
@@ -193,13 +193,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert altcoin:// to altcoin:
+    // Convert ICBit:// to ICBit:
     //
-    //    Cannot handle this later, because altcoin:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because ICBit:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("altcoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("ICBit://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 10, "altcoin:");
+        uri.replace(0, 10, "ICBit:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -207,7 +207,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("altcoin:%1").arg(info.address);
+    QString ret = QString("ICBit:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)

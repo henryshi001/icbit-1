@@ -387,7 +387,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso altcoin:)</translation>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso ICBit:)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -403,7 +403,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Malfermi altcoin:-URI-on aŭ pagpeton</translation>
+        <translation>Malfermi ICBit:-URI-on aŭ pagpeton</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -839,15 +839,15 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>Bonvenon al la bitmona kerno, altcoin Core.</translation>
+        <translation>Bonvenon al la bitmona kerno, ICBit Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Dum tiu ĉi unua uzo de la programo, vi povas elekti lokon, kie altcoin Core stokos siajn datumojn.</translation>
+        <translation>Dum tiu ĉi unua uzo de la programo, vi povas elekti lokon, kie ICBit Core stokos siajn datumojn.</translation>
     </message>
     <message>
         <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>altcoin Core elŝutos kaj konservos kopion de la bitmona blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
+        <translation>ICBit Core elŝutos kaj konservos kopion de la bitmona blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>

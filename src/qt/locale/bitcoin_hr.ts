@@ -67,11 +67,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše altcoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <translation>Ovo su vaše ICBit adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su vaše altcoin adrese za primanje novca. Preporučamo da koristite novu adresu za primanje za svaku transakciju.</translation>
+        <translation>Ovo su vaše ICBit adrese za primanje novca. Preporučamo da koristite novu adresu za primanje za svaku transakciju.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE altcoinE!&lt;/b&gt;</translation>
+        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE ICBitE!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -295,7 +295,7 @@
     </message>
     <message>
         <source>Bitcoin Core client</source>
-        <translation>altcoin Core klijent</translation>
+        <translation>ICBit Core klijent</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Slanje novca na altcoin adresu</translation>
+        <translation>Slanje novca na ICBit adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,7 +331,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>altcoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,7 +347,7 @@
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
-        <translation>Prikaži informacije o programu altcoin Core</translation>
+        <translation>Prikaži informacije o programu ICBit Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,11 +363,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Poruku potpišemo s altcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <translation>Poruku potpišemo s ICBit adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom altcoin adresom</translation>
+        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom ICBit adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,15 +387,15 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Zatraži uplatu (stvara QR kod i altcoin: URI adresu)</translation>
+        <translation>Zatraži uplatu (stvara QR kod i ICBit: URI adresu)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;O programu altcoin Core</translation>
+        <translation>&amp;O programu ICBit Core</translation>
     </message>
     <message>
         <source>Modify configuration options for Bitcoin Core</source>
@@ -411,7 +411,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Otvori altcoin: URI adresu ili zahtjev za uplatu</translation>
+        <translation>Otvori ICBit: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -423,7 +423,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna veza na altcoin mrežu</numerusform><numerusform>%n aktivnih veza na altcoin mrežu</numerusform><numerusform>%n aktivnih veza na altcoin mrežu</numerusform></translation>
+        <translation><numerusform>%n aktivna veza na ICBit mrežu</numerusform><numerusform>%n aktivnih veza na ICBit mrežu</numerusform><numerusform>%n aktivnih veza na ICBit mrežu</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -686,11 +686,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka altcoin adrese</translation>
+        <translation>Oznaka ICBit adrese</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>altcoin adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
+        <translation>ICBit adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -718,7 +718,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Upisana adresa "%1" nije valjana altcoin adresa.</translation>
+        <translation>Upisana adresa "%1" nije valjana ICBit adresa.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -748,7 +748,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -760,7 +760,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>O programu altcoin Core</translation>
+        <translation>O programu ICBit Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -783,11 +783,11 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>Dobrodošli u programu altcoin Core.</translation>
+        <translation>Dobrodošli u programu ICBit Core.</translation>
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -881,7 +881,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port altcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <translation>Automatski otvori port ICBit klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -929,7 +929,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio altcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio ICBita koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -956,7 +956,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s altcoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s ICBit mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1087,7 +1087,7 @@
     </message>
     <message>
         <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Dobrodošli u altcoin RPC konzolu.</translation>
+        <translation>Dobrodošli u ICBit RPC konzolu.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1407,7 +1407,7 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>[testnet]</source>

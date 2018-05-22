@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu altcoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <translation>Need on sinu ICBiti aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -129,7 +129,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA altcoinID&lt;/b&gt;!</translation>
+        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA ICBitID&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -251,7 +251,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Saada münte altcoini aadressile</translation>
+        <translation>Saada münte ICBiti aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>altcoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -303,11 +303,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma altcoini aadressiga</translation>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma ICBiti aadressiga</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud altcoini aadressiga</translation>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud ICBiti aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -327,11 +327,11 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoini tuumik</translation>
+        <translation>ICBiti tuumik</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>Kirjeldus altcoini Tuumast</translation>
+        <translation>Kirjeldus ICBiti Tuumast</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -570,7 +570,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole altcoinis kehtiv.</translation>
+        <translation>Sisestatud aadress "%1" ei ole ICBitis kehtiv.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -592,7 +592,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoini tuumik</translation>
+        <translation>ICBiti tuumik</translation>
     </message>
     <message>
         <source>version</source>
@@ -600,7 +600,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Kirjeldus altcoini Tuumast</translation>
+        <translation>Kirjeldus ICBiti Tuumast</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -623,7 +623,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoini tuumik</translation>
+        <translation>ICBiti tuumik</translation>
     </message>
     <message>
         <source>Error</source>
@@ -677,7 +677,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>altcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <translation>ICBiti kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -779,7 +779,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>altcoin ei käivitu: vajuta-maksa toiming</translation>
+        <translation>ICBit ei käivitu: vajuta-maksa toiming</translation>
     </message>
     </context>
 <context>
@@ -1204,7 +1204,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Allkirjasta sõnum altcoini aadressi sulle kuulumise tõestamiseks</translation>
+        <translation>Allkirjasta sõnum ICBiti aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1224,7 +1224,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud altcoini aadressiga.</translation>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud ICBiti aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1291,11 +1291,11 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoini tuumik</translation>
+        <translation>ICBiti tuumik</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>altcoini Tuuma arendajad</translation>
+        <translation>ICBiti Tuuma arendajad</translation>
     </message>
     <message>
         <source>[testnet]</source>

@@ -67,11 +67,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tohle jsou tvé altcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <translation>Tohle jsou tvé ICBitové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tohle jsou tvé altcoinové adresy pro příjem plateb. Je doporučené používat pokaždé novou adresu pro každou transakci.</translation>
+        <translation>Tohle jsou tvé ICBitové adresy pro příjem plateb. Je doporučené používat pokaždé novou adresu pro každou transakci.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY altcoinY&lt;/b&gt;!</translation>
+        <translation>Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY ICBitY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -169,7 +169,7 @@
     </message>
     <message>
         <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>altcoin Core se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky nemůže zabránit krádeži tvých altcoinů malwarem, kterým se může počítač nakazit.</translation>
+        <translation>ICBit Core se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky nemůže zabránit krádeži tvých ICBitů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -299,7 +299,7 @@
     </message>
     <message>
         <source>Bitcoin Core client</source>
-        <translation>altcoin Core klient</translation>
+        <translation>ICBit Core klient</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -311,7 +311,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Pošli mince na altcoinovou adresu</translation>
+        <translation>Pošli mince na ICBitovou adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>altcoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,7 +351,7 @@
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
-        <translation>Zobraz informace o altcoin Core</translation>
+        <translation>Zobraz informace o ICBit Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,11 +367,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Podepiš zprávy svými altcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <translation>Podepiš zprávy svými ICBitovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými altcoinovými adresami</translation>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými ICBitovými adresami</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,19 +391,19 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Požaduj platby (generuje QR kódy a altcoin: URI)</translation>
+        <translation>Požaduj platby (generuje QR kódy a ICBit: URI)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>O &amp;altcoin Core</translation>
+        <translation>O &amp;ICBit Core</translation>
     </message>
     <message>
         <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Uprav nastavení altcoin Core</translation>
+        <translation>Uprav nastavení ICBit Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -415,7 +415,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Načti altcoin: URI nebo platební požadavek</translation>
+        <translation>Načti ICBit: URI nebo platební požadavek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -423,11 +423,11 @@
     </message>
     <message>
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Seznam argumentů altcoinu pro příkazovou řádku získáš v nápovědě altcoinu Core</translation>
+        <translation>Seznam argumentů ICBitu pro příkazovou řádku získáš v nápovědě ICBitu Core</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivní spojení do altcoinové sítě</numerusform><numerusform>%n aktivní spojení do altcoinové sítě</numerusform><numerusform>%n aktivních spojení do altcoinové sítě</numerusform></translation>
+        <translation><numerusform>%n aktivní spojení do ICBitové sítě</numerusform><numerusform>%n aktivní spojení do ICBitové sítě</numerusform><numerusform>%n aktivních spojení do ICBitové sítě</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -810,7 +810,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Zadaná adresa "%1" není platná altcoinová adresa.</translation>
+        <translation>Zadaná adresa "%1" není platná ICBitová adresa.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -848,7 +848,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -860,7 +860,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>O altcoin Core</translation>
+        <translation>O ICBit Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -907,15 +907,15 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>Vítej v altcoin Core.</translation>
+        <translation>Vítej v ICBit Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Tohle je poprvé, co spouštíš altcoin Core, takže si můžeš zvolit, kam bude ukládat svá data.</translation>
+        <translation>Tohle je poprvé, co spouštíš ICBit Core, takže si můžeš zvolit, kam bude ukládat svá data.</translation>
     </message>
     <message>
         <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>altcoin Core bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %1 GB dat – toto číslo bude navíc v průběhu času pomalu růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
+        <translation>ICBit Core bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %1 GB dat – toto číslo bude navíc v průběhu času pomalu růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -927,7 +927,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1009,7 +1009,7 @@
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování altcoin Core.</translation>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování ICBit Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1037,11 +1037,11 @@
     </message>
     <message>
         <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Automaticky spustí altcoin Core po přihlášení do systému.</translation>
+        <translation>Automaticky spustí ICBit Core po přihlášení do systému.</translation>
     </message>
     <message>
         <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>S&amp;pustit altcoin Core po přihlášení do systému</translation>
+        <translation>S&amp;pustit ICBit Core po přihlášení do systému</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1077,7 +1077,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Připojí se do altcoinové sítě přes SOCKS5 proxy.</translation>
+        <translation>Připojí se do ICBitové sítě přes SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1117,7 +1117,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Připojí se do altcoinové sítě přes SOCKS5 proxy vyhrazenou pro skryté služby v Tor síti.</translation>
+        <translation>Připojí se do ICBitové sítě přes SOCKS5 proxy vyhrazenou pro skryté služby v Tor síti.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1204,7 +1204,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s altcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s ICBitovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1303,7 +1303,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit altcoin: obsluha click-to-pay</translation>
+        <translation>Nemůžu spustit ICBit: obsluha click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1311,7 +1311,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná altcoinová adresa nebo poškozené parametry URI.</translation>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná ICBitová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1385,7 +1385,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Zadej altcoinovou adresu (např. %1)</translation>
+        <translation>Zadej ICBitovou adresu (např. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1495,7 +1495,7 @@
     </message>
     <message>
         <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy altcoin Core z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+        <translation>Otevři soubor s ladicími záznamy ICBit Core z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1627,7 +1627,7 @@
     </message>
     <message>
         <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Vítej v RPC konzoli altcoin Core.</translation>
+        <translation>Vítej v RPC konzoli ICBit Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1710,7 +1710,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: Tahle zpráva se neposílá s platbou po altcoinové síti.</translation>
+        <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: Tahle zpráva se neposílá s platbou po ICBitové síti.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1943,7 +1943,7 @@
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Platit jen minimální poplatek je v pořádku, pokud je zrovna méně transakcí než místa v blocích. Ale počítej s tím, že to také může skončit transakcí, která nikdy nebude potvrzena, pokud je větší poptávka po altcoinových transakcích, než síť zvládne zpracovat.</translation>
+        <translation>Platit jen minimální poplatek je v pořádku, pokud je zrovna méně transakcí než místa v blocích. Ale počítej s tím, že to také může skončit transakcí, která nikdy nebude potvrzena, pokud je větší poptávka po ICBitových transakcích, než síť zvládne zpracovat.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2103,7 +2103,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Upozornění: Neplatná altcoinová adresa</translation>
+        <translation>Upozornění: Neplatná ICBitová adresa</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2154,7 +2154,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>altcoinová adresa příjemce</translation>
+        <translation>ICBitová adresa příjemce</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2174,7 +2174,7 @@
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatek se odečte od posílané částky. Příjemce tak dostane méně altcoinů, než zadáš do pole Částka. Pokud vybereš více příjemců, tak se poplatek rovnoměrně rozloží.</translation>
+        <translation>Poplatek se odečte od posílané částky. Příjemce tak dostane méně ICBitů, než zadáš do pole Částka. Pokud vybereš více příjemců, tak se poplatek rovnoměrně rozloží.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2198,7 +2198,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Zpráva, která byla připojena k altcoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po altcoinové síti.</translation>
+        <translation>Zpráva, která byla připojena k ICBit: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po ICBitové síti.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2213,7 +2213,7 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Bitcoin Core is shutting down...</source>
-        <translation>altcoin Core se ukončuje...</translation>
+        <translation>ICBit Core se ukončuje...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2232,11 +2232,11 @@
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout altcoiny. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
+        <translation>Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout ICBity. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>altcoinová adresa, kterou se zpráva podepíše</translation>
+        <translation>ICBitová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2268,7 +2268,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této altcoinové adresy</translation>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této ICBitové adresy</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2292,11 +2292,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>altcoinová adresa, kterou je zpráva podepsána</translation>
+        <translation>ICBitová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou altcoinovou adresou</translation>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou ICBitovou adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2363,11 +2363,11 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Vývojáři altcoin Core</translation>
+        <translation>Vývojáři ICBit Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2949,7 +2949,7 @@
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. altcoin Core už pravděpodobně jednou běží.</translation>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. ICBit Core už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3141,7 +3141,7 @@
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. altcoin Core pravděpodobně už jednou běží.</translation>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. ICBit Core pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3237,11 +3237,11 @@
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Vývojáři altcoin Core</translation>
+        <translation>Copyright (C) 2009-%i Vývojáři ICBit Core</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi altcoin Core</translation>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi ICBit Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3257,7 +3257,7 @@
     </message>
     <message>
         <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>Selhala úvodní zevrubná prověrka. altcoin Core se ukončuje.</translation>
+        <translation>Selhala úvodní zevrubná prověrka. ICBit Core se ukončuje.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3377,7 +3377,7 @@
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj altcoin Core, aby se operace dokončila</translation>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj ICBit Core, aby se operace dokončila</translation>
     </message>
     <message>
         <source>Warning</source>

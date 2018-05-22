@@ -67,11 +67,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones altcoin para enviar los pagos. Comprueba siempre la cantidad y la dirección receptora antes de enviar las monedas.</translation>
+        <translation>Estas son tus direcciones ICBit para enviar los pagos. Comprueba siempre la cantidad y la dirección receptora antes de enviar las monedas.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones de altcoin para recibir los pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
+        <translation>Estas son tus direcciones de ICBit para recibir los pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS altcoinS&lt;/b&gt;!"</translation>
+        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS ICBitS&lt;/b&gt;!"</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -169,7 +169,7 @@
     </message>
     <message>
         <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>altcoin Core se cerrará ahora para completar el procedo de encriptación. Recuerda que encriptar tu cartera no te protegerá completamente de la pérdida de altcoins por infección de malware en tu computadora.</translation>
+        <translation>ICBit Core se cerrará ahora para completar el procedo de encriptación. Recuerda que encriptar tu cartera no te protegerá completamente de la pérdida de ICBits por infección de malware en tu computadora.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <source>Bitcoin Core client</source>
-        <translation>Cliente altcoin Core</translation>
+        <translation>Cliente ICBit Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -319,7 +319,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar altcoins a una dirección altcoin</translation>
+        <translation>Enviar ICBits a una dirección ICBit</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>altcoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -359,7 +359,7 @@
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
-        <translation>Mostrar información acerca de altcoin Core</translation>
+        <translation>Mostrar información acerca de ICBit Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -375,11 +375,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones altcoin para demostrar la propiedad</translation>
+        <translation>Firmar mensajes con sus direcciones ICBit para demostrar la propiedad</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones altcoin concretas</translation>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones ICBit concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -399,19 +399,19 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagos (generando códigos QR e identificadores URI "altcoin:")</translation>
+        <translation>Solicitar pagos (generando códigos QR e identificadores URI "ICBit:")</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Acerca de altcoin Core</translation>
+        <translation>&amp;Acerca de ICBit Core</translation>
     </message>
     <message>
         <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Modificar las opciones de configuración de altcoin</translation>
+        <translation>Modificar las opciones de configuración de ICBit</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -423,7 +423,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir un identificador URI "altcoin:" o una petición de pago</translation>
+        <translation>Abrir un identificador URI "ICBit:" o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -431,11 +431,11 @@
     </message>
     <message>
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Mostrar el mensaje de ayuda de altcoin Core con una lista de las posibles opciones de la consola de comandos de altcoin</translation>
+        <translation>Mostrar el mensaje de ayuda de ICBit Core con una lista de las posibles opciones de la consola de comandos de ICBit</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n conexión activa hacia la red altcoin</numerusform><numerusform>%n conexiones activas hacia la red altcoin</numerusform></translation>
+        <translation><numerusform>%n conexión activa hacia la red ICBit</numerusform><numerusform>%n conexiones activas hacia la red ICBit</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -818,7 +818,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>La dirección introducida "%1" no es una dirección altcoin válida.</translation>
+        <translation>La dirección introducida "%1" no es una dirección ICBit válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -856,7 +856,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -868,7 +868,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Acerca de altcoin Core</translation>
+        <translation>Acerca de ICBit Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -915,15 +915,15 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>Bienvenido a altcoin Core</translation>
+        <translation>Bienvenido a ICBit Core</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos altcoin Core.</translation>
+        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos ICBit Core.</translation>
     </message>
     <message>
         <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>altcoin Core va a descargar y guardar una copia de la cadena de bloques de altcoin. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
+        <translation>ICBit Core va a descargar y guardar una copia de la cadena de bloques de ICBit. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -935,7 +935,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1017,7 +1017,7 @@
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie altcoin.</translation>
+        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie ICBit.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1045,11 +1045,11 @@
     </message>
     <message>
         <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Iniciar automáticamente altcoin Core al iniciar el sistema.</translation>
+        <translation>Iniciar automáticamente ICBit Core al iniciar el sistema.</translation>
     </message>
     <message>
         <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Iniciar altcoin Core al inicio del sistema</translation>
+        <translation>&amp;Iniciar ICBit Core al inicio del sistema</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1077,7 +1077,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente altcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <translation>Abrir automáticamente el puerto del cliente ICBit en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1085,7 +1085,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectarse a la red altcoin a través de un proxy SOCKS5.</translation>
+        <translation>Conectarse a la red ICBit a través de un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1125,7 +1125,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conectar a la red altcoin mediante un proxy SOCKS5 por separado para los servicios ocultos de Tor.</translation>
+        <translation>Conectar a la red ICBit mediante un proxy SOCKS5 por separado para los servicios ocultos de Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1161,7 +1161,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían altcoins.</translation>
+        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían ICBits.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,7 +1212,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red altcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red ICBit después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1311,7 +1311,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>No se puede iniciar el gestor de identificadores "altcoin:" de clic-para-pagar</translation>
+        <translation>No se puede iniciar el gestor de identificadores "ICBit:" de clic-para-pagar</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1319,7 +1319,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>¡No se puede leer el identificador URI! Esto puede deberse a una dirección altcoin inválida o a parámetros de la URI mal formados</translation>
+        <translation>¡No se puede leer el identificador URI! Esto puede deberse a una dirección ICBit inválida o a parámetros de la URI mal formados</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1393,7 +1393,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Introducir una dirección altcoin (p. ej. %1)</translation>
+        <translation>Introducir una dirección ICBit (p. ej. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1515,7 +1515,7 @@
     </message>
     <message>
         <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abre el archivo de registro de depuración de altcoin desde el directorio de datos actual. Esto puede tardar unos segundos para ficheros de registro de gran tamaño.</translation>
+        <translation>Abre el archivo de registro de depuración de ICBit desde el directorio de datos actual. Esto puede tardar unos segundos para ficheros de registro de gran tamaño.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1675,7 +1675,7 @@
     </message>
     <message>
         <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Bienvenido a la consola RPC de altcoin Core.</translation>
+        <translation>Bienvenido a la consola RPC de ICBit Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1758,7 +1758,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, que se muestra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red altcoin.</translation>
+        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, que se muestra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red ICBit.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1907,7 +1907,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar altcoins</translation>
+        <translation>Enviar ICBits</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1991,7 +1991,7 @@
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Pagando solamente la cuota mínima es correcto, siempre y cuando haya menos volumen de transacciones que el espacio en los bloques. Pero tenga en cuenta que esto puede terminar en una transacción nunca confirmada, una vez que haya más demanda para transacciones altcoin que la red pueda procesar.</translation>
+        <translation>Pagando solamente la cuota mínima es correcto, siempre y cuando haya menos volumen de transacciones que el espacio en los bloques. Pero tenga en cuenta que esto puede terminar en una transacción nunca confirmada, una vez que haya más demanda para transacciones ICBit que la red pueda procesar.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2063,7 +2063,7 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Confirmar el envío de altcoins</translation>
+        <translation>Confirmar el envío de ICBits</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2123,7 +2123,7 @@
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>¡La transacción fue rechazada! Esto puede haber ocurrido si alguno de los altcoins de su monedero ya estaba gastado o si ha usado una copia de wallet.dat y los altcoins estaban gastados en la copia pero no se habían marcado como gastados aqui.</translation>
+        <translation>¡La transacción fue rechazada! Esto puede haber ocurrido si alguno de los ICBits de su monedero ya estaba gastado o si ha usado una copia de wallet.dat y los ICBits estaban gastados en la copia pero no se habían marcado como gastados aqui.</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
@@ -2151,7 +2151,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Alerta: Dirección de altcoin inválida</translation>
+        <translation>Alerta: Dirección de ICBit inválida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2159,7 +2159,7 @@
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Alerta: Dirección de altcoin inválida</translation>
+        <translation>Alerta: Dirección de ICBit inválida</translation>
     </message>
     <message>
         <source>Copy dust</source>
@@ -2202,7 +2202,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>Dirección altcoin a la que enviar el pago</translation>
+        <translation>Dirección ICBit a la que enviar el pago</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2222,7 +2222,7 @@
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La cuota será deducida de la cantidad que sea mandada. El destinatario recibirá menos altcoins de los que entres en el  </translation>
+        <translation>La cuota será deducida de la cantidad que sea mandada. El destinatario recibirá menos ICBits de los que entres en el  </translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2246,7 +2246,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Un mensaje que se adjuntó a la altcoin: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red altcoin.</translation>
+        <translation>Un mensaje que se adjuntó a la ICBit: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red ICBit.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2261,7 +2261,7 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Bitcoin Core is shutting down...</source>
-        <translation>altcoin Core se está cerrando...</translation>
+        <translation>ICBit Core se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2284,7 +2284,7 @@
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>Dirección altcoin con la que firmar el mensaje</translation>
+        <translation>Dirección ICBit con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2316,7 +2316,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección altcoin</translation>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección ICBit</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2340,11 +2340,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>La dirección altcoin con la que se firmó el mensaje</translation>
+        <translation>La dirección ICBit con la que se firmó el mensaje</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección altcoin indicada</translation>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección ICBit indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2411,11 +2411,11 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Los desarrolladores de altcoin Core</translation>
+        <translation>Los desarrolladores de ICBit Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2541,7 +2541,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Los altcoins generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
+        <translation>Los ICBits generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2863,7 +2863,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar altcoins</translation>
+        <translation>Enviar ICBits</translation>
     </message>
 </context>
 <context>
@@ -2935,7 +2935,7 @@
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Por favor, mira si la fecha y la hora en tu computador son correctas! Si tu hara es errónea altcoin Core no funcionará correctamente.</translation>
+        <translation>Por favor, mira si la fecha y la hora en tu computador son correctas! Si tu hara es errónea ICBit Core no funcionará correctamente.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
@@ -3008,7 +3008,7 @@
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>No se ha podido acceder a %s en esta máquina. Probablemente ya se está ejecutando altcoin Core.</translation>
+        <translation>No se ha podido acceder a %s en esta máquina. Probablemente ya se está ejecutando ICBit Core.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3212,7 +3212,7 @@
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando altcoin Core.</translation>
+        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando ICBit Core.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3312,11 +3312,11 @@
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The altcoin Core Developers</translation>
+        <translation>Copyright (C) 2009-%i The ICBit Core Developers</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de altcoin Core</translation>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de ICBit Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3332,7 +3332,7 @@
     </message>
     <message>
         <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>La inicialización de la verificación de validez falló. Se está apagando altcoin Core.</translation>
+        <translation>La inicialización de la verificación de validez falló. Se está apagando ICBit Core.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3453,7 +3453,7 @@
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Monedero es necesario volver a escribir: reiniciar altcoin Core para completar</translation>
+        <translation>Monedero es necesario volver a escribir: reiniciar ICBit Core para completar</translation>
     </message>
     <message>
         <source>Warning</source>

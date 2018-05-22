@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "altcoin"
-            VALUE "FileDescription",    "altcoin Core (GUI node for Bitcoin)"
+            VALUE "CompanyName",        "ICBit"
+            VALUE "FileDescription",    "ICBit Core (GUI node for Bitcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "altcoin-qt"
+            VALUE "InternalName",       "ICBit-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "altcoin-qt.exe"
-            VALUE "ProductName",        "altcoin Core"
+            VALUE "OriginalFilename",   "ICBit-qt.exe"
+            VALUE "ProductName",        "ICBit Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

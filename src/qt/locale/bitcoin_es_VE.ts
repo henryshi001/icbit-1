@@ -59,11 +59,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones altcoin para realizar pagos. Siempre checa el monto y la dirección de recepción antes de enviar monedas.</translation>
+        <translation>Estas son tus direcciones ICBit para realizar pagos. Siempre checa el monto y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones altcoin para recibir pagos. Es recomendable usar una nueva dirección para cada transacción.</translation>
+        <translation>Estas son tus direcciones ICBit para recibir pagos. Es recomendable usar una nueva dirección para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -153,7 +153,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Aviso: Si encriptas tu billetera y pierdes tu frase secreta, ¡PERDERÁS TODOS TUS altcoinS!</translation>
+        <translation>Aviso: Si encriptas tu billetera y pierdes tu frase secreta, ¡PERDERÁS TODOS TUS ICBitS!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>Bitcoin Core client</source>
-        <translation>Cliente altcoin Core</translation>
+        <translation>Cliente ICBit Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -255,7 +255,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar monedas a una dirección altcoin</translation>
+        <translation>Enviar monedas a una dirección ICBit</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -271,7 +271,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>altcoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -287,7 +287,7 @@
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
-        <translation>Mostrar información acerca de altcoin Core</translation>
+        <translation>Mostrar información acerca de ICBit Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -303,11 +303,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Firma mensajes con tus direcciones altcoin para probar que eres dueño de ellas</translation>
+        <translation>Firma mensajes con tus direcciones ICBit para probar que eres dueño de ellas</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones altcoin especificas</translation>
+        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones ICBit especificas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -319,11 +319,11 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>Acerca de altcoin Core</translation>
+        <translation>Acerca de ICBit Core</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -636,7 +636,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>La dirección introducida "%1" no es una dirección altcoin válida.</translation>
+        <translation>La dirección introducida "%1" no es una dirección ICBit válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -674,7 +674,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -686,7 +686,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Acerca de altcoin Core</translation>
+        <translation>Acerca de ICBit Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -705,7 +705,7 @@
     <name>Intro</name>
     <message>
         <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>altcoin Core descargará y almacenará una copia de la cadena de bloques altcoin. Al menos %1GB de datos serán almacenados en este directorio, y crecerá con el tiempo. La billetera será también almacenada en este directorio.</translation>
+        <translation>ICBit Core descargará y almacenará una copia de la cadena de bloques ICBit. Al menos %1GB de datos serán almacenados en este directorio, y crecerá con el tiempo. La billetera será también almacenada en este directorio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -717,7 +717,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -937,7 +937,7 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     </context>
 <context>
@@ -1103,7 +1103,7 @@
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Deshabilitar para enlezar a %s en esta computadora. altcoin Core probablemente ya está ejecutándose.</translation>
+        <translation>Deshabilitar para enlezar a %s en esta computadora. ICBit Core probablemente ya está ejecutándose.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>

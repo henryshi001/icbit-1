@@ -67,11 +67,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Улар тўловларни жўнатиш учун сизнинг altcoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
+        <translation>Улар тўловларни жўнатиш учун сизнинг ICBit манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Улар тўловларни қабул қилиш учун сизнинг altcoin манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
+        <translation>Улар тўловларни қабул қилиш учун сизнинг ICBit манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Диққат: Агар сиз ҳамёнингизни кодласангиз ва махфий сўзингизни унутсангиз, сиз &lt;b&gt;БАРЧА altcoin ПУЛЛАРИНГИЗНИ ЙЎҚОТАСИЗ&lt;/b&gt;!</translation>
+        <translation>Диққат: Агар сиз ҳамёнингизни кодласангиз ва махфий сўзингизни унутсангиз, сиз &lt;b&gt;БАРЧА ICBit ПУЛЛАРИНГИЗНИ ЙЎҚОТАСИЗ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -291,7 +291,7 @@
     </message>
     <message>
         <source>Bitcoin Core client</source>
-        <translation>altcoin асос мижози</translation>
+        <translation>ICBit асос мижози</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -303,7 +303,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Тангаларни altcoin манзилига жўнатиш</translation>
+        <translation>Тангаларни ICBit манзилига жўнатиш</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -327,7 +327,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>altcoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
-        <translation>altcoin Core ҳақидаги маълумотларни кўрсатиш</translation>
+        <translation>ICBit Core ҳақидаги маълумотларни кўрсатиш</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -359,11 +359,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>altcoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
+        <translation>ICBit манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Хабарларни махсус altcoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+        <translation>Хабарларни махсус ICBit манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -383,15 +383,15 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Тўловлар (QR кодлари ва altcoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+        <translation>Тўловлар (QR кодлари ва ICBit ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>altcoin Core &amp;ҳақида</translation>
+        <translation>ICBit Core &amp;ҳақида</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -403,7 +403,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>altcoin’ни очиш: URI ёки тўлов сўрови</translation>
+        <translation>ICBit’ни очиш: URI ёки тўлов сўрови</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -411,11 +411,11 @@
     </message>
     <message>
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Мавжуд altcoin буйруқлар матни мосламалари билан  altcoin Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
+        <translation>Мавжуд ICBit буйруқлар матни мосламалари билан  ICBit Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n та altcoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+        <translation><numerusform>%n та ICBit тармоғига фаол уланиш мавжуд</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -740,7 +740,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Киритилган "%1" манзили тўғри altcoin манзили эмас.</translation>
+        <translation>Киритилган "%1" манзили тўғри ICBit манзили эмас.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -778,7 +778,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -790,7 +790,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>altcoin Core ҳақида</translation>
+        <translation>ICBit Core ҳақида</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -813,15 +813,15 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>"altcoin Core"га хуш келибсиз.</translation>
+        <translation>"ICBit Core"га хуш келибсиз.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Биринчи марта дастур ишга тушгани каби сиз altcoin Core маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
+        <translation>Биринчи марта дастур ишга тушгани каби сиз ICBit Core маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
     </message>
     <message>
         <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>altcoin Core юклаб олинади ва altcoin блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
+        <translation>ICBit Core юклаб олинади ва ICBit блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -833,7 +833,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -994,7 +994,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг altcoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг ICBit тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1099,7 +1099,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>altcoin манзилини киритинг (масалан.  %1)</translation>
+        <translation>ICBit манзилини киритинг (масалан.  %1)</translation>
     </message>
     <message>
         <source>%1 m</source>
@@ -1633,7 +1633,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Диққат: Нотўғр altcoin манзили</translation>
+        <translation>Диққат: Нотўғр ICBit манзили</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1741,11 +1741,11 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>altcoin Core дастурчилари</translation>
+        <translation>ICBit Core дастурчилари</translation>
     </message>
     <message>
         <source>[testnet]</source>

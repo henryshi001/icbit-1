@@ -58,7 +58,7 @@ Bitcoin-Qt changes
   to current translations
 
 MacOSX:
-* OSX support for click-to-pay (altcoin:) links
+* OSX support for click-to-pay (ICBit:) links
 * Fix GUI disappearing problem on MacOSX (issue #1522)
 
 Linux/Unix:

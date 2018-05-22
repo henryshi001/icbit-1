@@ -75,7 +75,7 @@ Dependency changes
 Bug fixes
 ---------
 
-* Clicking on a altcoin: URI on Windows should now launch Bitcoin-Qt properly.
+* Clicking on a ICBit: URI on Windows should now launch Bitcoin-Qt properly.
 
 * When running -testnet, use RPC port 18332 by default.
 

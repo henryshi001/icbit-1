@@ -104,11 +104,11 @@ attacks were fixed.
 
 NOT YET IMPLEMENTED FEATURES
 
-Support for clicking on altcoin: URIs and
+Support for clicking on ICBit: URIs and
 opening/launching Bitcoin-Qt is available only on Linux,
 and only if you configure your desktop to launch
 Bitcoin-Qt. All platforms support dragging and dropping
-altcoin: URIs onto the Bitcoin-Qt window to start
+ICBit: URIs onto the Bitcoin-Qt window to start
 payment.
 
 

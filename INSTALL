@@ -1,5 +1,5 @@
-Building altcoin
+Building ICBit
 
-See doc/build-*.md for instructions on building altcoind,
+See doc/build-*.md for instructions on building ICBitd,
 the intended-for-services, no-graphical-interface, reference
-implementation of altcoin.
+implementation of ICBit.

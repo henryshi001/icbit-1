@@ -9,13 +9,13 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = libbitcoinconsensus.pc
 endif
 
-BITCOIND_BIN=$(top_builddir)/src/altcoind$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/altcoin-qt$(EXEEXT)
-BITCOIN_CLI_BIN=$(top_builddir)/src/altcoin-cli$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/ICBitd$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/ICBit-qt$(EXEEXT)
+BITCOIN_CLI_BIN=$(top_builddir)/src/ICBit-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
-OSX_APP=altcoin-Qt.app
-OSX_DMG=altcoin-Core.dmg
+OSX_APP=ICBit-Qt.app
+OSX_DMG=ICBit-Core.dmg
 OSX_BACKGROUND_IMAGE=background.tiff
 OSX_DEPLOY_SCRIPT=$(top_srcdir)/contrib/macdeploy/macdeployqtplus
 OSX_FANCY_PLIST=$(top_srcdir)/contrib/macdeploy/fancy.plist
@@ -114,7 +114,7 @@ $(APP_DIST_DIR)/Applications:
 $(APP_DIST_EXTRAS): $(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/Bitcoin-Qt
 
 $(OSX_DMG): $(APP_DIST_EXTRAS)
-	$(GENISOIMAGE) -no-cache-inodes -D -l -probe -V "altcoin-Core" -no-pad -r -dir-mode 0755 -apple -o $@ dist
+	$(GENISOIMAGE) -no-cache-inodes -D -l -probe -V "ICBit-Core" -no-pad -r -dir-mode 0755 -apple -o $@ dist
 
 $(APP_DIST_DIR)/.background/$(OSX_BACKGROUND_IMAGE): contrib/macdeploy/$(OSX_BACKGROUND_IMAGE)
 	$(MKDIR_P) $(@D)

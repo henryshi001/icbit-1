@@ -263,7 +263,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>altcoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -401,7 +401,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای altcoin نسشت</translation>
+        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای ICBit نسشت</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -471,7 +471,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه altcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه ICBit به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     </context>
 <context>

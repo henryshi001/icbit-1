@@ -86,12 +86,12 @@
     <message>
         <location line="+7"/>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your altcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <translation>These are your ICBit addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your altcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <translation>These are your ICBit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -202,7 +202,7 @@
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR altcoinS&lt;/b&gt;!</translation>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ICBitS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -212,7 +212,7 @@
     <message>
         <location line="+11"/>
         <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>altcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your altcoins from being stolen by malware infecting your computer.</translation>
+        <translation>ICBit Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ICBits from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -391,7 +391,7 @@
     <message>
         <location line="+183"/>
         <source>Bitcoin Core client</source>
-        <translation>altcoin Core client</translation>
+        <translation>ICBit Core client</translation>
     </message>
     <message>
         <location line="+169"/>
@@ -406,7 +406,7 @@
     <message>
         <location line="-436"/>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Send coins to a altcoin address</translation>
+        <translation>Send coins to a ICBit address</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -436,7 +436,7 @@
     <message>
         <location line="+459"/>
         <source>Bitcoin</source>
-        <translation>altcoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <location line="-669"/>
@@ -456,7 +456,7 @@
     <message>
         <location line="+40"/>
         <source>Show information about Bitcoin Core</source>
-        <translation>Show information about altcoin Core</translation>
+        <translation>Show information about ICBit Core</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -476,12 +476,12 @@
     <message>
         <location line="+7"/>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Sign messages with your altcoin addresses to prove you own them</translation>
+        <translation>Sign messages with your ICBit addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified altcoin addresses</translation>
+        <translation>Verify messages to ensure they were signed with specified ICBit addresses</translation>
     </message>
     <message>
         <location line="+56"/>
@@ -506,22 +506,22 @@
     <message>
         <location line="-314"/>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <location line="+160"/>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Request payments (generates QR codes and altcoin: URIs)</translation>
+        <translation>Request payments (generates QR codes and ICBit: URIs)</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;About altcoin Core</translation>
+        <translation>&amp;About ICBit Core</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Modify configuration options for altcoin Core</translation>
+        <translation>Modify configuration options for ICBit Core</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -536,7 +536,7 @@
     <message>
         <location line="+3"/>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Open a altcoin: URI or payment request</translation>
+        <translation>Open a ICBit: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -546,7 +546,7 @@
     <message>
         <location line="+2"/>
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Show the altcoin Core help message to get a list with possible altcoin command-line options</translation>
+        <translation>Show the ICBit Core help message to get a list with possible ICBit command-line options</translation>
     </message>
     <message numerus="yes">
         <location line="+329"/>
@@ -1042,7 +1042,7 @@
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid altcoin address.</translation>
+        <translation>The entered address &quot;%1&quot; is not a valid ICBit address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1088,7 +1088,7 @@
     <message>
         <location filename="../utilitydialog.cpp" line="+36"/>
         <source>Bitcoin Core</source>
-        <translation type="unfinished">altcoin Core</translation>
+        <translation type="unfinished">ICBit Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1104,7 +1104,7 @@
     <message>
         <location line="+5"/>
         <source>About Bitcoin Core</source>
-        <translation>About altcoin Core</translation>
+        <translation>About ICBit Core</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1167,17 +1167,17 @@
     <message>
         <location line="+9"/>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>Welcome to altcoin Core.</translation>
+        <translation>Welcome to ICBit Core.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where altcoin Core will store its data.</translation>
+        <translation>As this is the first time the program is launched, you can choose where ICBit Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>altcoin Core will download and store a copy of the altcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <translation>ICBit Core will download and store a copy of the ICBit block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1192,7 +1192,7 @@
     <message>
         <location filename="../intro.cpp" line="+86"/>
         <source>Bitcoin Core</source>
-        <translation type="unfinished">altcoin Core</translation>
+        <translation type="unfinished">ICBit Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1300,7 +1300,7 @@
     <message>
         <location line="+45"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting altcoin Core.</translation>
+        <translation>The user interface language can be set here. This setting will take effect after restarting ICBit Core.</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1336,12 +1336,12 @@
     <message>
         <location line="-153"/>
         <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Automatically start altcoin Core after logging in to the system.</translation>
+        <translation>Automatically start ICBit Core after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Start altcoin Core on system login</translation>
+        <translation>&amp;Start ICBit Core on system login</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -1376,7 +1376,7 @@
     <message>
         <location line="+30"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the altcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <translation>Automatically open the ICBit client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1386,7 +1386,7 @@
     <message>
         <location line="+17"/>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Connect to the altcoin network through a SOCKS5 proxy.</translation>
+        <translation>Connect to the ICBit network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1441,7 +1441,7 @@
     <message>
         <location line="+25"/>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connect to the altcoin network through a separate SOCKS5 proxy for Tor hidden services.</translation>
+        <translation>Connect to the ICBit network through a separate SOCKS5 proxy for Tor hidden services.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1551,7 +1551,7 @@
         <location line="+59"/>
         <location line="+386"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the altcoin network after a connection is established, but this process has not completed yet.</translation>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the ICBit network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1686,7 +1686,7 @@
     <message>
         <location line="-402"/>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Cannot start altcoin: click-to-pay handler</translation>
+        <translation>Cannot start ICBit: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+104"/>
@@ -1696,7 +1696,7 @@
     <message>
         <location line="+21"/>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid altcoin address or malformed URI parameters.</translation>
+        <translation>URI cannot be parsed! This can be caused by an invalid ICBit address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1788,7 +1788,7 @@
     <message>
         <location filename="../guiutil.cpp" line="+118"/>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Enter a altcoin address (e.g. %1)</translation>
+        <translation>Enter a ICBit address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+763"/>
@@ -1963,7 +1963,7 @@
     <message>
         <location line="+48"/>
         <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the altcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <translation>Open the ICBit Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+233"/>
@@ -2171,7 +2171,7 @@
     <message>
         <location line="+74"/>
         <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Welcome to the altcoin Core RPC console.</translation>
+        <translation>Welcome to the ICBit Core RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2277,7 +2277,7 @@
         <location line="+14"/>
         <location line="+23"/>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the altcoin network.</translation>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ICBit network.</translation>
     </message>
     <message>
         <location line="-7"/>
@@ -2571,7 +2571,7 @@
         <location line="+30"/>
         <location line="+13"/>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for altcoin transactions than the network can process.</translation>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ICBit transactions than the network can process.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2777,7 +2777,7 @@
     <message>
         <location line="+236"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Warning: Invalid altcoin address</translation>
+        <translation>Warning: Invalid ICBit address</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -2842,7 +2842,7 @@
     <message>
         <location line="+39"/>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>The altcoin address to send the payment to</translation>
+        <translation>The ICBit address to send the payment to</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -2899,7 +2899,7 @@
     <message>
         <location line="+47"/>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>A message that was attached to the altcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the altcoin network.</translation>
+        <translation>A message that was attached to the ICBit: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ICBit network.</translation>
     </message>
     <message>
         <location line="+448"/>
@@ -2919,7 +2919,7 @@
     <message>
         <location filename="../utilitydialog.cpp" line="+78"/>
         <source>Bitcoin Core is shutting down...</source>
-        <translation>altcoin Core is shutting down...</translation>
+        <translation>ICBit Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2947,7 +2947,7 @@
     <message>
         <location line="+18"/>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>The altcoin address to sign the message with</translation>
+        <translation>The ICBit address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2989,7 +2989,7 @@
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Sign the message to prove you own this altcoin address</translation>
+        <translation>Sign the message to prove you own this ICBit address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3020,12 +3020,12 @@
     <message>
         <location line="+21"/>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>The altcoin address the message was signed with</translation>
+        <translation>The ICBit address the message was signed with</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified altcoin address</translation>
+        <translation>Verify the message to ensure it was signed with the specified ICBit address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3114,12 +3114,12 @@
     <message>
         <location filename="../splashscreen.cpp" line="+41"/>
         <source>Bitcoin Core</source>
-        <translation type="unfinished">altcoin Core</translation>
+        <translation type="unfinished">ICBit Core</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The Bitcoin Core developers</source>
-        <translation>The altcoin Core developers</translation>
+        <translation>The ICBit Core developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+19"/>
@@ -3786,7 +3786,7 @@
     <message>
         <location line="+7"/>
         <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong altcoin Core will not work properly.</translation>
+        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong ICBit Core will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3896,7 +3896,7 @@
     <message>
         <location line="+13"/>
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. altcoin Core is probably already running.</translation>
+        <translation>Unable to bind to %s on this computer. ICBit Core is probably already running.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -4191,7 +4191,7 @@
     <message>
         <location line="+4"/>
         <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. altcoin Core is probably already running.</translation>
+        <translation>Cannot obtain a lock on data directory %s. ICBit Core is probably already running.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4311,12 +4311,12 @@
     <message>
         <location line="+3"/>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The altcoin Core Developers</translation>
+        <translation>Copyright (C) 2009-%i The ICBit Core Developers</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of altcoin Core</translation>
+        <translation>Error loading wallet.dat: Wallet requires newer version of ICBit Core</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4336,7 +4336,7 @@
     <message>
         <location line="+1"/>
         <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>Initialization sanity check failed. altcoin Core is shutting down.</translation>
+        <translation>Initialization sanity check failed. ICBit Core is shutting down.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4486,7 +4486,7 @@
     <message>
         <location line="+4"/>
         <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart altcoin Core to complete</translation>
+        <translation>Wallet needed to be rewritten: restart ICBit Core to complete</translation>
     </message>
     <message>
         <location line="+2"/>

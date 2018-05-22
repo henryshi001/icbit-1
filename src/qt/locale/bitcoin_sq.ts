@@ -47,11 +47,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Këto janë altcoin adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
+        <translation>Këto janë ICBit adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Këto janë altcoin adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
+        <translation>Këto janë ICBit adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -211,7 +211,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>altcoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -247,7 +247,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Berthama altcoin</translation>
+        <translation>Berthama ICBit</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -386,7 +386,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Berthama altcoin</translation>
+        <translation>Berthama ICBit</translation>
     </message>
     <message>
         <source>version</source>
@@ -405,11 +405,11 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>Miresevini ne Berthamen altcoin</translation>
+        <translation>Miresevini ne Berthamen ICBit</translation>
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Berthama altcoin</translation>
+        <translation>Berthama ICBit</translation>
     </message>
     <message>
         <source>Error</source>
@@ -625,7 +625,7 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Berthama altcoin</translation>
+        <translation>Berthama ICBit</translation>
     </message>
     <message>
         <source>[testnet]</source>

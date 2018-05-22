@@ -175,11 +175,11 @@
     </message>
     <message>
         <source>Bitcoin Core client</source>
-        <translation>altcoin Core client</translation>
+        <translation>ICBit Core client</translation>
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>altcoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -215,11 +215,11 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Về altcoin Core</translation>
+        <translation>&amp;Về ICBit Core</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -378,7 +378,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -386,7 +386,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Về altcoin Core</translation>
+        <translation>Về ICBit Core</translation>
     </message>
     </context>
 <context>
@@ -397,7 +397,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -617,7 +617,7 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>altcoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     </context>
 <context>
