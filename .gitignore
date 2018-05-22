@@ -12,12 +12,12 @@ linux.sh
 /*.includes
 
 *.exe
-src/altcoin
-src/altcoind
-src/altcoin-cli
-src/altcoin-tx
-src/test/test_altcoin
-src/qt/test/test_altcoin-qt
+src/ICBit
+src/ICBitd
+src/ICBit-cli
+src/ICBit-tx
+src/test/test_ICBit
+src/qt/test/test_ICBit-qt
 
 # autoreconf
 Makefile.in
