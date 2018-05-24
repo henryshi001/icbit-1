@@ -248,6 +248,15 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sha256.h \
   crypto/sha512.cpp \
   crypto/sha512.h \
+  crypto/sph/sph_types.h \
+  crypto/sph/sph_cubehash.h \
+  crypto/sph/aes_helper.c \
+  crypto/sph/echo.c \
+  crypto/sph/cubehash.c \
+  crypto/sph/sph_echo.h \
+  crypto/scrypt/scrypt.h \
+  crypto/scrypt/scrypt.cpp \
+  crypto/scrypt/scrypt-sse2.cpp \
   crypto/cryptonight/cryptonight.h \
   crypto/cryptonight/crypto/oaes_lib.h \
   crypto/cryptonight/crypto/aesb.c \

@@ -187,3 +187,61 @@ CSHA256& CSHA256::Reset()
     sha256::Initialize(s);
     return *this;
 }
+
+
+////// CryptoNight
+
+CCryptoNight::CCryptoNight() : bytes(0)
+{
+    sha256::Initialize(s);
+}
+
+CCryptoNight& CCryptoNight::Write(const unsigned char* data, size_t len)
+{
+    const unsigned char* end = data + len;
+    size_t bufsize = bytes % 64;
+    if (bufsize && bufsize + len >= 64) {
+        // Fill the buffer, and process it.
+        memcpy(buf + bufsize, data, 64 - bufsize);
+        bytes += 64 - bufsize;
+        data += 64 - bufsize;
+        sha256::Transform(s, buf);
+        bufsize = 0;
+    }
+    while (end >= data + 64) {
+        // Process full chunks directly from the source.
+        sha256::Transform(s, data);
+        bytes += 64;
+        data += 64;
+    }
+    if (end > data) {
+        // Fill the buffer with what remains.
+        memcpy(buf + bufsize, data, end - data);
+        bytes += end - data;
+    }
+    return *this;
+}
+
+void CCryptoNight::Finalize(unsigned char hash[OUTPUT_SIZE])
+{
+    static const unsigned char pad[64] = {0x80};
+    unsigned char sizedesc[8];
+    WriteBE64(sizedesc, bytes << 3);
+    Write(pad, 1 + ((119 - (bytes % 64)) % 64));
+    Write(sizedesc, 8);
+    WriteBE32(hash, s[0]);
+    WriteBE32(hash + 4, s[1]);
+    WriteBE32(hash + 8, s[2]);
+    WriteBE32(hash + 12, s[3]);
+    WriteBE32(hash + 16, s[4]);
+    WriteBE32(hash + 20, s[5]);
+    WriteBE32(hash + 24, s[6]);
+    WriteBE32(hash + 28, s[7]);
+}
+
+CCryptoNight& CCryptoNight::Reset()
+{
+    bytes = 0;
+    sha256::Initialize(s);
+    return *this;
+}

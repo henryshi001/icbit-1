@@ -19,6 +19,7 @@ typedef uint256 ChainCode;
 
 
 /** A PoW hasher class for Bitcoin (default: double SHA-256). */
+// x11: https://github.com/dashpay/dash/blob/master/src/hash.h#L333
 class CPowHash256 {
 private:
     CSHA256 sha;
