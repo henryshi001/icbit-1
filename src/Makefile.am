@@ -234,6 +234,7 @@ libbitcoin_wallet_a_SOURCES = \
 # crypto primitives library
 crypto_libbitcoin_crypto_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_CONFIG_INCLUDES)
 crypto_libbitcoin_crypto_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+crypto_libbitcoin_crypto_a_CFLAGS = $(AM_CFLAGS) $(PIE_FLAGS)
 crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/common.h \
   crypto/hmac_sha256.cpp \
@@ -257,6 +258,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/scrypt/scrypt.h \
   crypto/scrypt/scrypt.cpp \
   crypto/scrypt/scrypt-sse2.cpp \
+  crypto/cryptonight/libcryptonight.h \
   crypto/cryptonight/cryptonight.h \
   crypto/cryptonight/crypto/oaes_lib.h \
   crypto/cryptonight/crypto/aesb.c \

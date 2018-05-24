@@ -8,6 +8,11 @@
 
 #include "crypto/ripemd160.h"
 #include "crypto/sha256.h"
+#include "crypto/scrypt/scrypt.h"
+#include "crypto/cryptonight/libcryptonight.h"
+#include "crypto/sph/sph_cubehash.h"
+#include "crypto/sph/sph_echo.h"
+
 #include "prevector.h"
 #include "serialize.h"
 #include "uint256.h"
@@ -29,16 +34,31 @@ public:
     void Finalize(unsigned char hash[OUTPUT_SIZE]) {
         unsigned char buf[CSHA256::OUTPUT_SIZE];
         sha.Finalize(buf);
+        // sha256
         sha.Reset().Write(buf, CSHA256::OUTPUT_SIZE).Finalize(hash);
+        // scrypt
+        char scrypt_input[80];
+        memcpy(scrypt_input, hash, 32);
+        memcpy(scrypt_input, hash, 32);
+        memcpy(scrypt_input, hash, 16);
+        scrypt_1024_1_1_256(&scrypt_input[0], (char *)hash);
+        // cryptonight
+        cryptonight_hash(hash, hash, 32);
+        // sph_cubehash
+        uint512 cube_hash512;
+        sph_cubehash512_context ctx_cubehash;
+        sph_cubehash512_init(&ctx_cubehash);
+        sph_cubehash512 (&ctx_cubehash, static_cast<const void*>(hash), 32);
+        sph_cubehash512_close(&ctx_cubehash, static_cast<void*>(&cube_hash512));
+        // sph_echo
+        uint512 echo_hash512;
+        sph_echo512_context ctx_echo;
+        sph_echo512_init(&ctx_echo);
+        sph_echo512 (&ctx_echo, static_cast<const void*>(&cube_hash512), 64);
+        sph_echo512_close(&ctx_echo, static_cast<void*>(&echo_hash512));
 
-        // if wanna triple SHA-256 (that is SHA256T), like this:
-        sha.Reset().Write(hash, OUTPUT_SIZE).Finalize(hash);
-
-        // if wanna quad SHA-256 (that is SHA256Q), do again:
-        //sha.Reset().Write(hash, OUTPUT_SIZE).Finalize(hash);
-
-        // NOTE: Hash(Hash(x)) is NOT same as Hash(x|x),
-        // so remember Finalize()/Reset(), before Write().
+        uint256 res = echo_hash512.trim256();
+        memcpy(hash, (const unsigned char *)&res, 32);
     }
 
     CPowHash256& Write(const unsigned char *data, size_t len) {
