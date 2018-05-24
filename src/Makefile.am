@@ -247,7 +247,27 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sha256.cpp \
   crypto/sha256.h \
   crypto/sha512.cpp \
-  crypto/sha512.h
+  crypto/sha512.h \
+  crypto/cryptonight/cryptonight.h \
+  crypto/cryptonight/crypto/oaes_lib.h \
+  crypto/cryptonight/crypto/aesb.c \
+  crypto/cryptonight/crypto/c_keccak.h \
+  crypto/cryptonight/crypto/c_blake256.c \
+  crypto/cryptonight/crypto/cryptonight_config.h \
+  crypto/cryptonight/crypto/hash.h \
+  crypto/cryptonight/crypto/c_blake256.h \
+  crypto/cryptonight/crypto/c_groestl.c \
+  crypto/cryptonight/crypto/c_jh.c \
+  crypto/cryptonight/crypto/oaes_lib.c \
+  crypto/cryptonight/crypto/c_skein.c \
+  crypto/cryptonight/crypto/c_groestl.h \
+  crypto/cryptonight/crypto/oaes_config.h \
+  crypto/cryptonight/crypto/c_keccak.c \
+  crypto/cryptonight/crypto/skein_port.h \
+  crypto/cryptonight/crypto/c_skein.h \
+  crypto/cryptonight/crypto/c_jh.h \
+  crypto/cryptonight/crypto/groestl_tables.h \
+  crypto/cryptonight/cryptonight.c 
 
 # common: shared between bitcoind, and bitcoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
