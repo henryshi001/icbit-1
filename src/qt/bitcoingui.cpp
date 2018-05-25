@@ -360,7 +360,7 @@ void BitcoinGUI::createActions()
     showHelpMessageAction->setMenuRole(QAction::NoRole);
     showHelpMessageAction->setStatusTip(tr("Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options"));
 
-    mineAction = new QAction(platformStyle->TextColorIcon(":/icons/tx_mined"), tr("&Mine"), this);
+    mineAction = new QAction(platformStyle->TextColorIcon(":/icons/tx_mined"), tr("&Mine Off"), this);
     mineAction->setMenuRole(QAction::NoRole);
     mineAction->setStatusTip(tr("Mine"));
     mineAction->setCheckable(true);
@@ -642,6 +642,12 @@ void BitcoinGUI::mineClicked()
 {
     int nGenProcLimit = GetNumCores();
     bool fGenerate = mineAction->isChecked();
+
+    if (fGenerate){
+        mineAction->setText(tr("&Mine On"));
+    }else{
+        mineAction->setText(tr("&Mine Off"));
+    }
 
     mapArgs["-gen"] = (fGenerate ? "1" : "0");
     mapArgs ["-genproclimit"] = itostr(nGenProcLimit);
