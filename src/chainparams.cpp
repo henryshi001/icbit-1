@@ -135,12 +135,12 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xec59f3525515f6f1bac6b61157f0032e78d85a5c26e4e60a3025b6361f2740be"));
         consensus.hashGenesisBlock = genesis.GetHash();
 
-        vSeeds.push_back(CDNSSeedData("n1.ICBitstatus.info", "n1.ICBitstatus.info"));
-        vSeeds.push_back(CDNSSeedData("n2.ICBitstatus.info", "n2.ICBitstatus.info"));
-        vSeeds.push_back(CDNSSeedData("n3.ICBitstatus.info", "n3.ICBitstatus.info"));
-        vSeeds.push_back(CDNSSeedData("n4.ICBitstatus.info", "n4.ICBitstatus.info"));
-        vSeeds.push_back(CDNSSeedData("n5.ICBitstatus.info", "n5.ICBitstatus.info"));
-        vSeeds.push_back(CDNSSeedData("n6.ICBitstatus.info", "n6.ICBitstatus.info"));
+        vSeeds.push_back(CDNSSeedData("n1.icbstats.info", "n1.icbstats.info"));
+        vSeeds.push_back(CDNSSeedData("n2.icbstats.info", "n2.icbstats.info"));
+        vSeeds.push_back(CDNSSeedData("n3.icbstats.info", "n3.icbstats.info"));
+        vSeeds.push_back(CDNSSeedData("n4.icbstats.info", "n4.icbstats.info"));
+        vSeeds.push_back(CDNSSeedData("n5.icbstats.info", "n5.icbstats.info"));
+        vSeeds.push_back(CDNSSeedData("n6.icbstats.info", "n6.icbstats.info"));
 
         vSeeds.push_back(CDNSSeedData("n1.icbit.io", "n1.icbit.io"));
         vSeeds.push_back(CDNSSeedData("n2.icbit.io", "n2.icbit.io"));
