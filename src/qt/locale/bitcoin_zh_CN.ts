@@ -3382,7 +3382,7 @@
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>这是实验性的软件。</translation>
+        <translation>这是实验性的软件。如果你认为ICBIT对你比较有用的话，请对我们进行一些捐赠支持。请访问https://icbit.io网站来获取有关这个软件的更多信息。源代码可以在 https://github.com/icbitproject/icbit 获得。</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
