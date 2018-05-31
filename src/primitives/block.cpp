@@ -12,6 +12,11 @@
 
 uint256 CBlockHeader::GetHash() const
 {
+    return SerializeHash(*this);
+}
+
+uint256 CBlockHeader::GetPoWHash() const
+{
     CPowHashWriter ss(SER_GETHASH, PROTOCOL_VERSION);
     ss << (*this);
     return ss.GetHash();
