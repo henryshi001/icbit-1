@@ -77,7 +77,7 @@ public:
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
         consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("0x008bdcced87d9e7cb9b2364c66b9197e1b74163a950d6770db7d668734893fea");
+        consensus.BIP34Hash = uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3");
         consensus.powLimit = uint256S("00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 30; // 30 seconds
         consensus.nPowTargetSpacing = 30; // 30 seconds
@@ -109,7 +109,7 @@ public:
         nMaxTipAge = 100 * 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1526990901, 645, 0x2000ffff, 1, 77 * COIN);
+        genesis = CreateGenesisBlock(1526990901, 115, 0x2000ffff, 1, 77 * COIN);
         while(!true){// search genesis
             static FILE * genesis_file = NULL; if (genesis_file == NULL) {genesis_file = fopen("genesis.info", "w");}
             arith_uint256 hash = UintToArith256(genesis.GetHash());
@@ -131,7 +131,7 @@ public:
             }
             genesis.nNonce++;
         }
-        assert(genesis.GetHash() == uint256S("0x008bdcced87d9e7cb9b2364c66b9197e1b74163a950d6770db7d668734893fea"));
+        assert(genesis.GetHash() == uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"));
         assert(genesis.hashMerkleRoot == uint256S("0xec59f3525515f6f1bac6b61157f0032e78d85a5c26e4e60a3025b6361f2740be"));
         consensus.hashGenesisBlock = genesis.GetHash();
 
@@ -166,10 +166,11 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (        0, uint256S("0x008bdcced87d9e7cb9b2364c66b9197e1b74163a950d6770db7d668734893fea"))
-            (        1, uint256S("0x006d2807bb54f1447b9f92800756063b841dcb6b7ef2c7cd9941cdb0260c8871"))
-            (        2, uint256S("0x00764203ffc8fdd0755ea4640014dae4dba6d4c0a6c20e6c06dd1c040e830d82"))
-            (    11900, uint256S("0x0001b9ed1540764764e23dcb22ef38d99682e44966c3795cff4b33399500d433")),
+            (        0, uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"))
+            //(        1, uint256S("0x006d2807bb54f1447b9f92800756063b841dcb6b7ef2c7cd9941cdb0260c8871"))
+            //(        2, uint256S("0x00764203ffc8fdd0755ea4640014dae4dba6d4c0a6c20e6c06dd1c040e830d82"))
+            //(    11900, uint256S("0x0001b9ed1540764764e23dcb22ef38d99682e44966c3795cff4b33399500d433"))
+            ,
             1523529400, // * UNIX timestamp of last checkpoint block
             1,          // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
@@ -191,7 +192,7 @@ public:
         consensus.nMajorityRejectBlockOutdated = 75;
         consensus.nMajorityWindow = 100;
         consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("0x008bdcced87d9e7cb9b2364c66b9197e1b74163a950d6770db7d668734893fea");
+        consensus.BIP34Hash = uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3");
         consensus.powLimit = uint256S("00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 10 * 60;
@@ -217,9 +218,9 @@ public:
         nMaxTipAge = 0x7fffffff;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1526990901, 645, 0x2000ffff, 1, 77 * COIN);
+        genesis = CreateGenesisBlock(1526990901, 115, 0x2000ffff, 1, 77 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x008bdcced87d9e7cb9b2364c66b9197e1b74163a950d6770db7d668734893fea"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"));
         assert(genesis.hashMerkleRoot == uint256S("0xec59f3525515f6f1bac6b61157f0032e78d85a5c26e4e60a3025b6361f2740be"));
 
         vFixedSeeds.clear();
@@ -242,7 +243,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x008bdcced87d9e7cb9b2364c66b9197e1b74163a950d6770db7d668734893fea")),
+            ( 0, uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3")),
             1337966069,
             1488,
             300
@@ -264,7 +265,7 @@ public:
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
         consensus.BIP34Height = 0; // BIP34 has not necessarily activated on regtest
-        consensus.BIP34Hash = uint256S("0x008bdcced87d9e7cb9b2364c66b9197e1b74163a950d6770db7d668734893fea");
+        consensus.BIP34Hash = uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3");
         consensus.powLimit = uint256S("00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 10 * 60;
@@ -287,9 +288,9 @@ public:
         nDefaultPort = 18444;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1526990901, 645, 0x2000ffff, 1, 77 * COIN);
+        genesis = CreateGenesisBlock(1526990901, 115, 0x2000ffff, 1, 77 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x008bdcced87d9e7cb9b2364c66b9197e1b74163a950d6770db7d668734893fea"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"));
         assert(genesis.hashMerkleRoot == uint256S("0xec59f3525515f6f1bac6b61157f0032e78d85a5c26e4e60a3025b6361f2740be"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
@@ -303,7 +304,7 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x008bdcced87d9e7cb9b2364c66b9197e1b74163a950d6770db7d668734893fea")),
+            ( 0, uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3")),
             0,
             0,
             0
