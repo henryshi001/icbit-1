@@ -1,4 +1,4 @@
-ICBit integration/staging tree
+ICBit repository
 =====================================
 
 [![Build Status](https://travis-ci.org/ICBit/ICBit.svg?branch=master)](https://travis-ci.org/ICBit/ICBit)
