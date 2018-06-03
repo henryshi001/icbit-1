@@ -17,7 +17,7 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "ICBit"
-            VALUE "FileDescription",    "ICBit-tx (CLI Bitcoin transaction editor utility)"
+            VALUE "FileDescription",    "ICBit-tx (CLI ICBit transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "ICBit-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
