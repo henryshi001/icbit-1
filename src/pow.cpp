@@ -54,6 +54,8 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     bnNew *= nActualTimespan;
     if (pindexLast->nHeight < 207777){
         bnNew /= params.nPowTargetTimespan;
+    }else if (pindexLast->nHeight == 207777){
+        bnNew = bnPowLimit;
     }else{
         bnNew /= (60);
     }
