@@ -50,6 +50,7 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     arith_uint256 bnNew;
     arith_uint256 bnOld;
     bnNew.SetCompact(pindexLast->nBits);
+    const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
     bnOld = bnNew;
     bnNew *= nActualTimespan;
     if (pindexLast->nHeight < 207777){
@@ -60,7 +61,6 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
         bnNew /= (60);
     }
 
-    const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
     if (bnNew > bnPowLimit)
         bnNew = bnPowLimit;
 
