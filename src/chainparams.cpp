@@ -100,12 +100,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xf9;
+        pchMessageStart[0] = 0xfa;
         pchMessageStart[1] = 0xbe;
         pchMessageStart[2] = 0xbb;
         pchMessageStart[3] = 0xdd;
         vAlertPubKey = ParseHex("0408e6f641e4cf520244966a61f30dc849312adc85af5225f9943b378069f251ca1573f69f7aa5d018fc3830bb6392cfe1fd85c4979bbeadc089fb595dd9d2ad3e");
-        nDefaultPort = 9013;
+        nDefaultPort = 7077;
         nMaxTipAge = 100 * 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
@@ -135,19 +135,21 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xec59f3525515f6f1bac6b61157f0032e78d85a5c26e4e60a3025b6361f2740be"));
         consensus.hashGenesisBlock = genesis.GetHash();
 
-        vSeeds.push_back(CDNSSeedData("n1.icbstats.info", "n1.icbstats.info"));
-        vSeeds.push_back(CDNSSeedData("n2.icbstats.info", "n2.icbstats.info"));
-        vSeeds.push_back(CDNSSeedData("n3.icbstats.info", "n3.icbstats.info"));
-        vSeeds.push_back(CDNSSeedData("n4.icbstats.info", "n4.icbstats.info"));
-        vSeeds.push_back(CDNSSeedData("n5.icbstats.info", "n5.icbstats.info"));
-        vSeeds.push_back(CDNSSeedData("n6.icbstats.info", "n6.icbstats.info"));
+        if (false){
+            vSeeds.push_back(CDNSSeedData("n1.icbstats.info", "n1.icbstats.info"));
+            vSeeds.push_back(CDNSSeedData("n2.icbstats.info", "n2.icbstats.info"));
+            vSeeds.push_back(CDNSSeedData("n3.icbstats.info", "n3.icbstats.info"));
+            vSeeds.push_back(CDNSSeedData("n4.icbstats.info", "n4.icbstats.info"));
+            vSeeds.push_back(CDNSSeedData("n5.icbstats.info", "n5.icbstats.info"));
+            vSeeds.push_back(CDNSSeedData("n6.icbstats.info", "n6.icbstats.info"));
 
-        vSeeds.push_back(CDNSSeedData("n1.icbit.io", "n1.icbit.io"));
-        vSeeds.push_back(CDNSSeedData("n2.icbit.io", "n2.icbit.io"));
-        vSeeds.push_back(CDNSSeedData("n3.icbit.io", "n3.icbit.io"));
-        vSeeds.push_back(CDNSSeedData("n4.icbit.io", "n4.icbit.io"));
-        vSeeds.push_back(CDNSSeedData("n5.icbit.io", "n5.icbit.io"));
-        vSeeds.push_back(CDNSSeedData("n6.icbit.io", "n6.icbit.io"));
+            vSeeds.push_back(CDNSSeedData("n1.icbit.io", "n1.icbit.io"));
+            vSeeds.push_back(CDNSSeedData("n2.icbit.io", "n2.icbit.io"));
+            vSeeds.push_back(CDNSSeedData("n3.icbit.io", "n3.icbit.io"));
+            vSeeds.push_back(CDNSSeedData("n4.icbit.io", "n4.icbit.io"));
+            vSeeds.push_back(CDNSSeedData("n5.icbit.io", "n5.icbit.io"));
+            vSeeds.push_back(CDNSSeedData("n6.icbit.io", "n6.icbit.io"));
+        }
 
         // Ref: https://en.bitcoin.it/wiki/List_of_address_prefixes
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,0); //'1'
