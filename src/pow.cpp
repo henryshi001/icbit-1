@@ -41,10 +41,15 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     int64_t nActualTimespan = pindexLast->GetBlockTime() - nFirstBlockTime;
     LogPrintf("  nActualTimespan = %d  before bounds\n", nActualTimespan);
 
-    if (nActualTimespan < params.nPowTargetTimespan/2)
-        nActualTimespan = params.nPowTargetTimespan/2;
-    if (nActualTimespan > params.nPowTargetTimespan*2)
-        nActualTimespan = params.nPowTargetTimespan*2;
+    int64_t nPowTargetTimespan = params.nPowTargetTimespan;
+    if (pindexLast->nHeight >= 207777){
+        nPowTargetTimespan = 60;
+    }
+
+    if (nActualTimespan < nPowTargetTimespan/2)
+        nActualTimespan = nPowTargetTimespan/2;
+    if (nActualTimespan > nPowTargetTimespan*2)
+        nActualTimespan = nPowTargetTimespan*2;
 
     // Retarget
     arith_uint256 bnNew;
@@ -53,12 +58,11 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
     bnOld = bnNew;
     bnNew *= nActualTimespan;
-    if (pindexLast->nHeight < 207776){
-        bnNew /= params.nPowTargetTimespan;
-    }else if (pindexLast->nHeight == 207776){
+
+    if (pindexLast->nHeight == 207776){
         bnNew = bnPowLimit;
     }else{
-        bnNew /= (60);
+        bnNew /= nPowTargetTimespan;
     }
 
     if (bnNew > bnPowLimit)
@@ -66,7 +70,7 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
 
     /// debug print
     LogPrintf("GetNextWorkRequired RETARGET\n");
-    LogPrintf("params.nPowTargetTimespan = %d    nActualTimespan = %d\n", (pindexLast->nHeight < 207777 ? params.nPowTargetTimespan : 60), nActualTimespan);
+    LogPrintf("nPowTargetTimespan = %d    nActualTimespan = %d\n", (pindexLast->nHeight < 207777 ? nPowTargetTimespan : 60), nActualTimespan);
     LogPrintf("Before: %08x  %s\n", pindexLast->nBits, bnOld.ToString());
     LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.ToString());
 
